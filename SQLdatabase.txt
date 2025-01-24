@@ -1,0 +1,36 @@
+
+CREATE TABLE FieldHockeyPlayers (
+    FirstName VARCHAR(50),
+    SecondName VARCHAR(50),
+    Position VARCHAR(30),
+    Appearances INT,
+    Goals INT,
+    GreenCards INT,
+    YellowCards INT,
+    RedCards INT,
+    Captaincy CHAR(1) -- Use 'Y' or 'N' for captaincy
+);
+
+
+INSERT INTO FieldHockeyPlayers (FirstName, SecondName, Position, Appearances, Goals, GreenCards, YellowCards, RedCards, Captaincy)
+VALUES
+('Alex', 'Smith', 'Forward', 24, 12, 1, 0, 0, 'Y'),
+('Jordan', 'Brown', 'Midfielder', 30, 8, 2, 1, 0, 'N'),
+('Taylor', 'Jones', 'Defender', 28, 3, 3, 1, 0, 'N'),
+('Chris', 'Miller', 'Goalkeeper', 50, 0, 0, 2, 1, 'N'),
+('Jamie', 'Clark', 'Forward', 40, 20, 1, 0, 0, 'Y'),
+('Morgan', 'Lee', 'Midfielder', 35, 10, 2, 1, 0, 'N'),
+('Casey', 'White', 'Defender', 27, 2, 3, 2, 1, 'N'),#
+('Drew', 'Harris', 'Forward', 22, 14, 1, 0, 0, 'N'),
+('Sam', 'Adams', 'Midfielder', 33, 9, 1, 1, 0, 'N'),
+('Alexis', 'Wright', 'Defender', 29, 1, 4, 1, 0, 'N'),
+('Cameron', 'Green', 'Goalkeeper', 45, 0, 0, 3, 2, 'N'),
+('Reese', 'Hill', 'Forward', 31, 17, 1, 0, 0, 'Y'),
+('Riley', 'Wood', 'Midfielder', 36, 11, 2, 2, 0, 'N'),
+('Charlie', 'Black', 'Defender', 30, 4, 3, 1, 0, 'N'),
+('Quinn', 'Stone', 'Forward', 25, 13, 1, 0, 0, 'N'),
+('Jordan', 'Taylor', 'Midfielder', 38, 7, 2, 1, 0, 'N'),
+('Logan', 'Brown', 'Defender', 29, 3, 2, 1, 0, 'N'),
+('Peyton', 'Gray', 'Forward', 20, 15, 0, 0, 0, 'N'),
+('Dakota', 'Reed', 'Midfielder', 40, 12, 3, 1, 0, 'Y'),
+('Skyler', 'Young', 'Defender', 32, 5, 2, 2, 0, 'N');
